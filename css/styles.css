@@ -734,6 +734,23 @@ footer {
     padding: 0 0 0 15px
 }
 
+.intro_link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 16px;
+    color: white;
+    font-size: 26px;
+}
+
+.intro_link a{
+    color: white;   
+}
+
+.intro_link a:hover{
+    color: black;   
+}
+
 @media only screen and (max-width: 750px) {
     #experience-timeline:before,
     #experience-timeline:after {
@@ -852,3 +869,4 @@ footer {
         padding: 5px 10px
     }
 }
+
